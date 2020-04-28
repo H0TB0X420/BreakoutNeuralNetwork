@@ -1,0 +1,22 @@
+This project is a neural network designed to play the arcade game Breakout. The model uses deep reinforcement learning 
+and back propagation to learn how to play the game. 
+
+-> "breakout.m" was supplied as a wrapper for the game so the model had something to play.
+
+Running the program:
+Download all the files, and open the directory in MATLAB
+Run the "BreakoutRunner.m" file
+
+Contributors:
+Becky Henning
+Erich Hairston 
+-> backprop_4layer.m: This file calculates the bias for each layer, the applies it to each weight vector.
+LeakyReLU was used to calculate bias. Sigmoid, dtanh, and softmax were used as activation functions. 
+->ChooseAction.m: The file chooses which direction the paddle will move. Either randomly if the model is
+still exploring or whichever direction has the highest reward possibility.
+
+
+*There are extras files with activation functions included in this repository so these functions
+can be interchanged for experimentation. Other extras files include single layer examples of the 
+techniques used in this project.
+
